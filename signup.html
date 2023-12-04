@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>Signup Form</title>
+</head>
+<body>
+
+  <form action="https://formspree.io/f/myyqqrdg" method="POST">
+    <h1>Handyhelppro</h1>
+
+    <label for="firstName"></label>
+    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+
+    <label for="lastName"></label>
+    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+
+    <label for="email"></label>
+    <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+    <label for="phone"></label>
+    <input type="tel" id="phone" name="phone"  placeholder="Phone Number" required>
+
+    <label for="password"></label>
+    <input type="password" id="password" name="password" placeholder="Password" required>
+
+    <label for="zipCode"></label>
+    <input type="text" id="zipCode" name="zipCode" placeholder="ZIP Code" required>
+
+    <div class="additional-text">
+      <p>By clicking below and creating an account, I agree to Handyhelppro <a href="https://www.taskrabbit.com/terms/terms-en-us-v20210219">Terms of Service</a> and <a href="https://www.taskrabbit.com/privacy">Privacy Policy</a></p>
+    </div>
+
+    <div class="button-container">
+      <button type="submit" class="submit-button">Submit</button>
+      <button type="reset" class="reset-button">Reset</button>
+    </div>
+  </form>
+
+</body>
+</html>
